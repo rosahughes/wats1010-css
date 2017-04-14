@@ -4,36 +4,41 @@
 
 body {
   background-image: url('images/sand.jpg');
-  background-stretch: cover;
   font-family: serif;
+  text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
 }
 
 header.page-header {
-  border: solid 1px black;
+  background: darkkhaki;
   padding: 1rem;
+  border-radius: 12px;
 }
 .page-header h1 {
   margin-bottom: 0;
 }
 .page-header p {
-  margin-top: 0;
+  margin-top: 3;
 }
 .page-header small {
   font-size: medium;
 }
-aside.more-info {
-  background: lightcoral;
-  float: ridge;
+aside.more-info h2 {
+  font-size: large;
 }
 aside.more-info img {
   width: 150px;
   height: auto;
 }
+aside.more-info li {
+  display: inline;
+  padding: 1rem;
+}
 section#content {
   background: lightgray;
+  border-radius: 12px;
 }
 .poem {
   list-style-type: none;
@@ -42,6 +47,8 @@ section#content {
   font-size: large;
   line-height: 1.8;
 }
-footer.page-footer {
-  background: lightcyan;
+footer.page-footer li {
+  list-style-type: none;
+  display: inline;
+  padding: 1rem
 }
