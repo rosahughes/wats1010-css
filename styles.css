@@ -10,7 +10,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
 }
-
+header {
+  width: 50%;
+}
 header.page-header {
   background: darkkhaki;
   padding: 1rem;
