@@ -15,6 +15,7 @@ header.page-header {
   background: darkkhaki;
   padding: 1rem;
   border-radius: 12px;
+  width: 50%;
 }
 .page-header h1 {
   margin-bottom: 0;
