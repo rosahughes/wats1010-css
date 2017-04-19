@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 headerelement {
   width: 50%;
-  text-align: center;
+ margin: auto;
 }
 header.page-header {
   background: darkkhaki;
